@@ -1,4 +1,3 @@
-//how to create a express api with socket.io using typescript?
 import * as express from "express";
 import * as http from "http";
 import * as socketio from "socket.io";
@@ -19,7 +18,3 @@ io.on("connection", (...params) => {
 server.listen(4004, () => {
   console.log("Running at localhost:4004");
 });
-
-
-
-

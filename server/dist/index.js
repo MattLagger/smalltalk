@@ -23,7 +23,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-//how to create a express api with socket.io using typescript?
 const express = __importStar(require("express"));
 const http = __importStar(require("http"));
 const socketio = __importStar(require("socket.io"));
